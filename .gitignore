@@ -5,7 +5,7 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
-/[Ll]ibrary/
+**/[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -74,9 +74,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# End of https://www.toptal.com/developers/gitignore/api/unity
 proj_1/Library/SourceAssetDB
 proj_1/Library/ArtifactDB
-proj_1/Library/SourceAssetDB
-proj_1/Library/SourceAssetDB
-proj_1/Library/SourceAssetDB
+# End of https://www.toptal.com/developers/gitignore/api/unity
