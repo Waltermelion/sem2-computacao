@@ -28,7 +28,7 @@ public class test : MonoBehaviour
             thicc.transform.position = yest;
             if (yest.x >= 2f)
             {
-                isRight = true;
+                isRight = true; // medium fries
             }
         }
         
