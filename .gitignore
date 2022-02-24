@@ -76,3 +76,5 @@ crashlytics-build.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 proj_1/Library/SourceAssetDB
+proj_1/Library/ArtifactDB
+proj_1/Library/SourceAssetDB
