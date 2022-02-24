@@ -1,39 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class test : MonoBehaviour
 {
-    [SerializeField] private GameObject cube;
+    [SerializeField] private GameObject thicc;
     [SerializeField] private bool isRight = true;
-    // Start is called before the first frame update
-    void Start()
+
+    public void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+        Debug.Log("yes");
+    }  
+    
     public void isClicked()
     {
+        Vector3 yest = thicc.transform.position;
+
         if (isRight)
-        {
-            Vector3 yest = cube.transform.position;
-            yest.x -= 0.1f;
-            cube.transform.position = yest;
+        {            
+            yest.x -= 0.2f;
+            thicc.transform.position = yest;
             if(yest.x <= -2.05f)
             {
                 isRight = false;
             }
-        }else if (!isRight)
-        {
-            Vector3 yest = cube.transform.position;
-            yest.x += 0.1f;
-            cube.transform.position = yest;
+        }else
+        {            
+            yest.x += 0.2f;
+            thicc.transform.position = yest;
             if (yest.x >= 2f)
             {
                 isRight = true;
