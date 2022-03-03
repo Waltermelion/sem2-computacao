@@ -35,4 +35,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-Project_Zombie/Logs/AssetImportWorker0.log
+Proj_1/Logs/AssetImportWorker0.log
+proj_1/Library/SourceAssetDB
