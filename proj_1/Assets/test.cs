@@ -4,6 +4,8 @@ public class test : MonoBehaviour
 {
     [SerializeField] private GameObject thicc;
     [SerializeField] private bool isRight = true;
+    [SerializeField] private GameObject bola;
+    [SerializeField] private GameObject spawner;
 
     public void Start()
     {
@@ -13,6 +15,7 @@ public class test : MonoBehaviour
     public void isClicked()
     {
         Vector3 yest = thicc.transform.position;
+        Instantiate(bola, spawner.transform.position, spawner.transform.rotation);
 
         if (isRight)
         {            
