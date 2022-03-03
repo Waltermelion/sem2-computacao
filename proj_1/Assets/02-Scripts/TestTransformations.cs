@@ -10,6 +10,10 @@ public class TestTransformations : MonoBehaviour
         Debug.Log(transform.localPosition);
         Debug.Log(transform.localEulerAngles);
         Debug.Log(transform.localScale);
+
+        Debug.Log(transform.position);
+        Debug.Log(transform.eulerAngles);
+        Debug.Log(transform.lossyScale);
     }
 
     // Update is called once per frame
