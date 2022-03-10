@@ -2,8 +2,11 @@ using UnityEngine;
 
 public class DayLightCycle : MonoBehaviour
 { 
+    //[SerializeField] private float RotationSpeed;
+    [SerializeField] private float StartingXRotation;
     void Update()
     {
-        transform.Rotate(0, 90, 0);
+        //StartingXRotation += RotationSpeed;
+        transform.Rotate(StartingXRotation, 0, 0);
     }
 }
