@@ -10,7 +10,7 @@ public class DayLightCycle : MonoBehaviour
 
         Color color1 = this.GetComponent<Light>().color;
 
-        color1 = Color.Lerp(Color.white, Color.yellow, Mathf.PingPong(Time.time, 1));
+        //color1 = Color.Lerp(Color.white, Color.yellow, Mathf.PingPong(Time.time, 1));
 
         /*if (redLimit)
         {
