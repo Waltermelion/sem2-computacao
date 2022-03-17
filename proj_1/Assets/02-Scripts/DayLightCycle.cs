@@ -32,6 +32,6 @@ public class DayLightCycle : MonoBehaviour
             redLimit = false;
         }*/
 
-        this.GetComponent<Light>().color = color1;
+        this.GetComponent<Light>().color = color1; // Mudar para variavel = gameobjectgetcomponet
     }
 }
