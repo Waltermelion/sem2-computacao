@@ -5,6 +5,7 @@ using UnityEngine;
 public class LightMovement : MonoBehaviour
 {
     Vector3 direction;
+    //[SerializeField] private Vector3 initialDirection;
     [SerializeField] private float topLeftCord;
     [SerializeField] private float bottomLeftCord;
     [SerializeField] private float bottomRightCord;
